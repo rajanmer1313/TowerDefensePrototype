@@ -1,0 +1,493 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26120) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7991 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Games/TowerDefenseTD
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65121
+Successfully changed project path to: D:/Games/TowerDefenseTD
+D:/Games/TowerDefenseTD
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16480]  Target information:
+
+Player connection [16480]  * "[IP] 10.210.90.246 [Port] 0 [Flags] 2 [Guid] 2898191231 [EditorId] 2898191231 [Version] 1048832 [Id] WindowsEditor(7,Rajan_Mer_1313) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16480] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16480] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 31.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Games/TowerDefenseTD/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     3995 MB
+    Driver:   32.0.101.5990
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007536 seconds.
+- Loaded All Assemblies, in  0.466 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 807ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (342ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (290ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.931 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.981 seconds
+Domain Reload Profiling: 1909ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (659ms)
+		LoadAssemblies (514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (982ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (821ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 8.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4974 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (242.9 KB). Loaded Objects now: 5436.
+Memory consumption went from 158.8 MB to 158.6 MB.
+Total: 8.091100 ms (FindLiveObjects: 0.523400 ms CreateObjectMapping: 0.372200 ms MarkObjects: 6.979400 ms  DeleteObjects: 0.214200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 774262.789570 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Water01.png
+  artifactKey: Guid(e526491800da962439c1ed62f1512230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Water01.png using Guid(e526491800da962439c1ed62f1512230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6fe2d75375b3787abe32798558fbacf4') in 0.149559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 02.png
+  artifactKey: Guid(994fe759e41c8b64e80f6bcec518638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 02.png using Guid(994fe759e41c8b64e80f6bcec518638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7323a9a55a6d31d0cf9d1fcda6e309d7') in 0.065658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Tree03.png
+  artifactKey: Guid(514fad7d21cf034428fc9b044cc0c967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Tree03.png using Guid(514fad7d21cf034428fc9b044cc0c967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '72c1db3ab78b7999eb277dfd220a8db4') in 0.048214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 05.png
+  artifactKey: Guid(1d383ce71d3fb8a43b934ffd4569e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 05.png using Guid(1d383ce71d3fb8a43b934ffd4569e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '14002ec8759bfaf63ce5567d752ff652') in 0.112039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Flower_1.png
+  artifactKey: Guid(a87062bba4bee77438dc66b74404d37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Flower_1.png using Guid(a87062bba4bee77438dc66b74404d37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b753430fcbbb821171b4d29800d2252a') in 0.045890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/SignPost.png
+  artifactKey: Guid(29f26aa7c3bb45245900f5aa5569b675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/SignPost.png using Guid(29f26aa7c3bb45245900f5aa5569b675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fb48cb153a334a4e70176091d9aedf3b') in 0.037372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 03.png
+  artifactKey: Guid(c02b82ae99f18cc419919968232329e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 03.png using Guid(c02b82ae99f18cc419919968232329e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '015e6ea13ceb812bfbee6d23a43b35d5') in 0.117805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Bush01.png
+  artifactKey: Guid(f102a9d6d04fd78449a43cc213a0d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Bush01.png using Guid(f102a9d6d04fd78449a43cc213a0d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd6842130a70e3b474890195cbc8036f1') in 0.040099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Tree02&Shadow.png
+  artifactKey: Guid(01c56788212666e41bff7370c833aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Tree02&Shadow.png using Guid(01c56788212666e41bff7370c833aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3acc49e13205418b836e51211b6442ca') in 0.046223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Rock2.png
+  artifactKey: Guid(522dfec06b2190341965b9c6644d6513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Rock2.png using Guid(522dfec06b2190341965b9c6644d6513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3e063d9994c2b87a54c0f57d8940c195') in 0.036868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Bush_Group.png
+  artifactKey: Guid(b23f7f771c330134ea76bd7e70254965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Bush_Group.png using Guid(b23f7f771c330134ea76bd7e70254965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '75eba4ddae22def1bd00c926a78376d4') in 0.054253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/TreeGroup1.png
+  artifactKey: Guid(2e8376e6f804257418db3bb4ba6abe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/TreeGroup1.png using Guid(2e8376e6f804257418db3bb4ba6abe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '34056c64afe2ebf02eeccd44014dc98c') in 0.048089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 04.png
+  artifactKey: Guid(be27d5e4fa23de643801876565962a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 04.png using Guid(be27d5e4fa23de643801876565962a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b820e4bd416b338f2a8b1c2b6ba8f81a') in 0.123171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Tree.4.png
+  artifactKey: Guid(03209613d4aa6544883eb2adc5ba83aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Tree.4.png using Guid(03209613d4aa6544883eb2adc5ba83aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7704611822e007a5badebc17782962d0') in 0.042245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Bridge.png
+  artifactKey: Guid(29dcb10d98926c34aab320ec4f970440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Bridge.png using Guid(29dcb10d98926c34aab320ec4f970440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bce35a0ee58c0231760d705b11398770') in 0.040099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/FlowerTile.png
+  artifactKey: Guid(aaa8002ad9f70e5498a01d7b9acc4a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/FlowerTile.png using Guid(aaa8002ad9f70e5498a01d7b9acc4a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8b619071f2e9e2717b4a0b6a8864ab92') in 0.039200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/TreeGroup2.png
+  artifactKey: Guid(708d0df79bf38144d99fa2fb13c78ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/TreeGroup2.png using Guid(708d0df79bf38144d99fa2fb13c78ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ae226818332baffd5edc9df658ffef13') in 0.048006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Fence_Y.png
+  artifactKey: Guid(ebefab25b86400d4ebee4c8064b8723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Fence_Y.png using Guid(ebefab25b86400d4ebee4c8064b8723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '27523810f99bdadc974291d1591e9d51') in 0.041068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Bridge02.png
+  artifactKey: Guid(92accaa13d7715743b52d0058f696848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Bridge02.png using Guid(92accaa13d7715743b52d0058f696848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ff72e2722045ee51249cc83661c79206') in 0.044288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 01.png
+  artifactKey: Guid(ca6a2aa2a371a7d44aa7543bc51f1556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Tile 01.png using Guid(ca6a2aa2a371a7d44aa7543bc51f1556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '939fba88c85c493e0c016b50b6043bac') in 0.185236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Pine01.png
+  artifactKey: Guid(7ff99cd6a020cea48b8fd6e4d65dd972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Pine01.png using Guid(7ff99cd6a020cea48b8fd6e4d65dd972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c846f4e0e91fb5aa86a64de61eb2f8f9') in 0.039981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Water02.png
+  artifactKey: Guid(75b1a76abba909144b3cedc53ce7ec66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Tile/Water02.png using Guid(75b1a76abba909144b3cedc53ce7ec66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8cb3cf53243e01d02b748bf147510df0') in 0.098925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Rock.png
+  artifactKey: Guid(5196a5021546b1641b8b966f6ca44374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Rock.png using Guid(5196a5021546b1641b8b966f6ca44374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b0e480bd7b840c69b53b7d47fe9fb6df') in 0.026657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Mushroom.png
+  artifactKey: Guid(c9bc3d62d96913647bc4582da66b2ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Mushroom.png using Guid(c9bc3d62d96913647bc4582da66b2ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'da19e338c3cc8a9605a0d6871fda2e98') in 0.024288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Stump.png
+  artifactKey: Guid(ff84fd0c0575c9d418aa7c5f3c00b6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/Props/Stump.png using Guid(ff84fd0c0575c9d418aa7c5f3c00b6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e09eab5f25b63bfde5d13edbb34a951c') in 0.026535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 32.267800 seconds.
+  path: Assets/2D TopDown The Jungle/DemoScene/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(9a70cdfd265c9d145aa845805f5c6f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/DemoScene/UniversalRenderPipelineGlobalSettings.asset using Guid(9a70cdfd265c9d145aa845805f5c6f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8b53d2ca2053ef5e9c2126754ed852ee') in 0.001622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009398 seconds.
+  path: Assets/2D TopDown The Jungle/DemoScene/URP.asset
+  artifactKey: Guid(38cfd41fee532524a8323ad1f21a6493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/DemoScene/URP.asset using Guid(38cfd41fee532524a8323ad1f21a6493) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6c35591f59100309c20bd55ccaf5e496') in 0.002183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D TopDown The Jungle/DemoScene/URP_Renderer.asset
+  artifactKey: Guid(53a922d00d317234ba07da5998cb27f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/DemoScene/URP_Renderer.asset using Guid(53a922d00d317234ba07da5998cb27f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '527a3b0dc3a68f7559772aa067214c67') in 0.004258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.726177 seconds.
+  path: Assets/2D TopDown The Jungle/DemoScene/Demo.unity
+  artifactKey: Guid(9d1e62f553b85b541afd077762305392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/DemoScene/Demo.unity using Guid(9d1e62f553b85b541afd077762305392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e300621096be93e738335fcecdf9292f') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11515.408040 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced
+  artifactKey: Guid(fb591d775fe32124d8a704bf754e1b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced using Guid(fb591d775fe32124d8a704bf754e1b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a2cc4581c24e35c672c5162367dc5e11') in 0.040584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.642553 seconds.
+  path: Assets/2D TopDown The Jungle/Artwork/Sliced/plots
+  artifactKey: Guid(7ea0ae6e4e60e4a4181db1b873a038e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D TopDown The Jungle/Artwork/Sliced/plots using Guid(7ea0ae6e4e60e4a4181db1b873a038e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'aea5adb5569a19f0632ec3e036753b38') in 0.001672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1060.912085 seconds.
+  path: Assets/Prefabs/Plot.prefab
+  artifactKey: Guid(337dc0ccd2c01914a98363bd7ba1d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Plot.prefab using Guid(337dc0ccd2c01914a98363bd7ba1d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c6d70ee463295010d66500c3c80634a2') in 0.870772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
