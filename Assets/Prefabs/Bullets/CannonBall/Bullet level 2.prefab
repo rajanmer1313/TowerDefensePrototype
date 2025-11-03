@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5604812207280588245}
   - component: {fileID: 2908987280957043291}
   - component: {fileID: -5515822484186444429}
+  - component: {fileID: 2543314396683466242}
   m_Layer: 0
   m_Name: Bullet level 2
   m_TagString: Bullet
@@ -121,3 +122,15 @@ MonoBehaviour:
   speed: 10
   lifeTime: 3
   damage: 15
+--- !u!210 &2543314396683466242
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9182097308522973791}
+  m_Enabled: 1
+  m_SortingLayerID: -112430355
+  m_SortingLayer: 6
+  m_SortingOrder: 0
+  m_SortAtRoot: 0

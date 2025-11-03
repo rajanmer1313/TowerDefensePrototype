@@ -108,6 +108,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 51629088315e88040801baec7f79fbbd, type: 3}
       insertIndex: -1
       addedObject: {fileID: -7342861114572494321}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 51629088315e88040801baec7f79fbbd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 658952960802557071}
   m_SourcePrefab: {fileID: 100100000, guid: 51629088315e88040801baec7f79fbbd, type: 3}
 --- !u!4 &4860051046896027414 stripped
 Transform:
@@ -158,3 +161,15 @@ MonoBehaviour:
   bulletSpeed: 10
   range: 2.7
   enemyTag: Enemy
+--- !u!210 &658952960802557071
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5204346983278484908}
+  m_Enabled: 1
+  m_SortingLayerID: 1450929683
+  m_SortingLayer: 4
+  m_SortingOrder: 0
+  m_SortAtRoot: 0

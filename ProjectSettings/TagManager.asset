@@ -52,11 +52,11 @@ TagManager:
   - name: Path
     uniqueID: 2897087829
     locked: 0
-  - name: Enemies
-    uniqueID: 1580698741
-    locked: 0
   - name: Towers
     uniqueID: 1450929683
+    locked: 0
+  - name: Enemies
+    uniqueID: 1580698741
     locked: 0
   - name: Bullet
     uniqueID: 4182536941

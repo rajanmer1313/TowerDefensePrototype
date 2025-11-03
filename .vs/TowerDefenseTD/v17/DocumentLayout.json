@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Games\\TowerDefenseTD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|d:\\games\\towerdefensetd\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|d:\\games\\towerdefensetd\\assets\\scripts\\arrow shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrow shooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|d:\\games\\towerdefensetd\\assets\\scripts\\towershoot2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towershoot2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|D:\\Games\\TowerDefenseTD\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|d:\\games\\towerdefensetd\\assets\\scripts\\bullet3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|D:\\Games\\TowerDefenseTD\\assets\\scripts\\bullet3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|D:\\Games\\TowerDefenseTD\\assets\\scripts\\goblinpathfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goblinpathfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|D:\\Games\\TowerDefenseTD\\assets\\scripts\\towershoot2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towershoot2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F427751A-4659-B7D8-FE19-2DE54ABDFFD6}|Assembly-CSharp.csproj|D:\\Games\\TowerDefenseTD\\assets\\scripts\\pathgizmo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Arrow Shooter.cs",
+              "DocumentMoniker": "D:\\Games\\TowerDefenseTD\\Assets\\Scripts\\Arrow Shooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arrow Shooter.cs",
+              "ToolTip": "D:\\Games\\TowerDefenseTD\\Assets\\Scripts\\Arrow Shooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arrow Shooter.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowDcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T13:28:24.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "D:\\Games\\TowerDefenseTD\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
@@ -42,12 +55,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T12:40:23.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T12:40:23.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Bullet3D.cs",
               "DocumentMoniker": "D:\\Games\\TowerDefenseTD\\Assets\\Scripts\\Bullet3D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet3D.cs",
@@ -55,33 +67,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Bullet3D.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T12:40:15.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T12:40:15.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TowerShoot2D.cs",
               "DocumentMoniker": "D:\\Games\\TowerDefenseTD\\Assets\\Scripts\\TowerShoot2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerShoot2D.cs",
               "ToolTip": "D:\\Games\\TowerDefenseTD\\Assets\\Scripts\\TowerShoot2D.cs",
               "RelativeToolTip": "Assets\\Scripts\\TowerShoot2D.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T11:07:05.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GoblinPathFollower.cs",
-              "DocumentMoniker": "D:\\Games\\TowerDefenseTD\\Assets\\Scripts\\GoblinPathFollower.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GoblinPathFollower.cs",
-              "ToolTip": "D:\\Games\\TowerDefenseTD\\Assets\\Scripts\\GoblinPathFollower.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GoblinPathFollower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:00:22.76Z",
               "EditorCaption": ""
             },
             {
