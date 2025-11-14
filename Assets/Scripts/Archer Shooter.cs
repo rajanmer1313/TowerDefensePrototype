@@ -1,19 +1,47 @@
 using UnityEngine;
 
-public class ArrowShooter : MonoBehaviour
+public class ArrowShooter : MonoBehaviour, ITower
 {
-    [Header("Shooting Settings")]
-    public GameObject bulletPrefab;    // Bullet prefab
-    public Transform firePoint;        // FirePoint
-    public float fireRate = 1f;        // Shots per second
-    public float bulletSpeed = 10f;    // Speed of bullet
+    [Header("Tower Levels Settings")]
+    public TowerLevelData[] levels;
+    private int currentLevel = 0;
 
-    [Header("Detection Settings")]
-    public float range = 6f;           // Attack range
-    public string enemyTag = "Enemy";  // Enemy tag
+    [Header("Fire Point")]
+    public Transform firePoint;
 
-    private float fireCooldown = 0f;
+    [Header("Enemy Detection")]
+    public string enemyTag = "Enemy";
     private Transform target;
+    private float fireCooldown = 0f;
+
+    // ================= ITower IMPLEMENTATION =================
+
+    public int GetLevel() => currentLevel;
+    public int GetMaxLevel() => levels.Length;
+    public string GetTowerName() => gameObject.name;
+
+    public void Upgrade()
+    {
+        if (currentLevel < levels.Length - 1)
+        {
+            currentLevel++;
+            Debug.Log($"{name} upgraded to Level {currentLevel + 1}");
+        }
+        else
+        {
+            Debug.Log($"{name} already at max level!");
+        }
+    }
+
+    public GameObject GetNextLevelBullet()
+    {
+        if (currentLevel < levels.Length - 1)
+            return levels[currentLevel + 1].bulletPrefab;
+
+        return null;
+    }
+
+    // ================= SHOOTING LOGIC =================
 
     void Update()
     {
@@ -23,51 +51,68 @@ public class ArrowShooter : MonoBehaviour
         if (target != null && fireCooldown <= 0f)
         {
             Shoot();
-            fireCooldown = 1f / fireRate;
+            fireCooldown = 1f / levels[currentLevel].fireRate;
         }
     }
 
     void UpdateTarget()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
-        float shortestDistance = Mathf.Infinity;
-        GameObject nearestEnemy = null;
+        float shortest = Mathf.Infinity;
+        GameObject nearest = null;
 
-        foreach (GameObject enemy in enemies)
+        foreach (var enemy in enemies)
         {
-            float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
-            if (distanceToEnemy < shortestDistance && distanceToEnemy <= range)
+            float dist = Vector3.Distance(transform.position, enemy.transform.position);
+            if (dist < shortest && dist <= levels[currentLevel].range)
             {
-                shortestDistance = distanceToEnemy;
-                nearestEnemy = enemy;
+                shortest = dist;
+                nearest = enemy;
             }
         }
 
-        target = nearestEnemy != null ? nearestEnemy.transform : null;
+        target = nearest ? nearest.transform : null;
     }
 
     void Shoot()
     {
-        if (bulletPrefab == null || firePoint == null || target == null)
+        var data = levels[currentLevel];
+        if (data.bulletPrefab == null || firePoint == null || target == null)
             return;
 
-        GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        GameObject bulletGO = Instantiate(data.bulletPrefab, firePoint.position, Quaternion.identity);
 
-        // Rotate the arrow towards the target
+        // Rotate arrow toward target
         Vector3 dir = (target.position - firePoint.position).normalized;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        bulletGO.transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+        bulletGO.transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
 
-        Bullet3D bullet = bulletGO.GetComponent<Bullet3D>();
-        if (bullet != null)
+        Bullet3D b = bulletGO.GetComponent<Bullet3D>();
+        if (b)
         {
-            bullet.SetTarget(target);
+            b.SetTarget(target);
+            b.damage = data.damage;
         }
+    }
+
+    // ================= CLICK  OPEN PANEL =================
+    void OnMouseDown()
+    {
+        if (TowerUpgradePanel.Instance == null)
+        {
+            Debug.LogError("UPGRADE PANEL INSTANCE IS NULL!");
+            return;
+        }
+
+        TowerUpgradePanel.Instance.OpenPanel(this);
     }
 
     void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, range);
+        if (levels != null && levels.Length > 0)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, levels[currentLevel].range);
+        }
     }
 }
